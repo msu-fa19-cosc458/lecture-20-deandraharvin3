@@ -16,4 +16,4 @@ jobs:
       - run:
           name: deploy to heroku
           command: |
-            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$dry-depths-52773.git master
+            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master
